@@ -1,5 +1,8 @@
 spring:
-  security:
-    user:
-      name: ravinduheshan99
-      password: 123
+  datasource:
+    url: jdbc:mysql://localhost:3306/login_auth
+    username: root
+    password: Rv@mysql123
+  jpa:
+    hibernate:
+      ddl-auto: update
